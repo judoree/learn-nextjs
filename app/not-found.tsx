@@ -1,9 +1,12 @@
-import Navigation from "../components/navigation";
+import { title } from "process";
+
+export const metadata = {
+  title: "Notfound",
+};
 
 export default function NotFound() {
   return (
     <div>
-      <Navigation />
       <h1> Not Found page</h1>
     </div>
   );
